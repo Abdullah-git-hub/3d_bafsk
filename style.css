@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(133 133 133);
+}
+.model_container{
+    height: 100vh;
+    width: 100%;
+}
+.model_container model-viewer{
+    height: 100%;
+    width: 100%;
+}
+.status {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    background: whitesmoke;
+    padding: 2px 6px;
+    border-radius: 2px;
+}
